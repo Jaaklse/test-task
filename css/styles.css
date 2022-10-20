@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.task-list {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-list-title {
+  font-weight: 300;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  font-size: 45px;
+}
+
+.task-list-checklist {
+  padding: 30px;
+  background-color: #FFF0F5;
+  border-radius: 20px;
+  list-style: none;
+}
+
+.task-list-task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.task-list-task:last-child {
+  margin-bottom: 0;
+}
+
+.task-list-text {
+  display: flex;
+  padding: 0 10px;
+  margin: 0 15px;
+  background-color: #FFFAFA;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.done {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #D3D3D3;
+          text-decoration-color: #D3D3D3;
+  color: #D3D3D3;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.none {
+  display: none !important;
+}
+
+.empty-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.emptylist {
+  font-size: 25px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-img {
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+
+.adding-task-object {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #FFF0F5;
+  border-radius: 20px 20px 0 0;
+}
+
+.adding-task-subtitle {
+  margin-left: 30px;
+  font-weight: 400;
+}
+
+.adding-task-form {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #FFFAFA;
+  border-radius: 0 0 20px 20px;
+}
+
+.adding-task-input {
+  margin-left: 30px;
+  line-height: 2.37;
+  padding-left: 10px;
+  margin-right: 10px;
+  width: 975px;
+  border: none;
+  border-radius: 4px;
+}
+
+.adding-task-button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
