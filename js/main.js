@@ -90,7 +90,6 @@ function deleteTask(event) {
         //tasks.forEach(function(task) {
             //if (task.text == currentText) {
                 //tasks.splice(Number(tasks.indexOf(task.text)), 1)
-                //localStorage.removeItem(tasks[tasks.indexOf(task.text)])
             //} 
         //})
         const index = tasks.findIndex(function(task) {
