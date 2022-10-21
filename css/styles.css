@@ -89,16 +89,15 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .button:hover {
-  transition-duration: 200ms;
   transform: scale(105%);
   background-color: #FFFAFA;
 }
 
 .button:active {
-  transition-duration: 200ms;
   transform: scale(95%);
 }
 
@@ -137,15 +136,14 @@ body {
   width: 975px;
   border: none;
   border-radius: 4px;
+  transition: transform 0.2s ease;
 }
 
 .adding-task-input:hover {
-  transition-duration: 200ms;
   transform: scale(101%);
 }
 
 .adding-task-input:active {
-  transition-duration: 200ms;
   transform: scale(99%);
 }
 
@@ -154,10 +152,10 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .adding-task-button:hover {
-  transition-duration: 200ms;
   transform: scale(105%);
   color: #FFFAFA;
   background-color: #808080;
@@ -165,5 +163,4 @@ body {
 
 .adding-task-button:active {
   transform: scale(95%);
-  transition-duration: 200ms;
 }/*# sourceMappingURL=styles.css.map */
