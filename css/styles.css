@@ -97,7 +97,8 @@ body {
   background-color: #FFFAFA;
 }
 
-.button:target {
+.button:active {
+  transition-duration: 200ms;
   transform: scale(95%);
 }
 
@@ -138,6 +139,16 @@ body {
   border-radius: 4px;
 }
 
+.adding-task-input:hover {
+  transition-duration: 200ms;
+  transform: scale(101%);
+}
+
+.adding-task-input:active {
+  transition-duration: 200ms;
+  transform: scale(99%);
+}
+
 .adding-task-button {
   padding: 10px;
   border: none;
@@ -152,6 +163,7 @@ body {
   background-color: #808080;
 }
 
-.adding-task-button:target {
-  transform: scale(90%);
+.adding-task-button:active {
+  transform: scale(95%);
+  transition-duration: 200ms;
 }/*# sourceMappingURL=styles.css.map */
