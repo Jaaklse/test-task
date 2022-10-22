@@ -8,6 +8,11 @@ body {
   font-family: sans-serif;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .container {
   width: 1140px;
   margin: auto;
@@ -45,6 +50,7 @@ body {
 
 .task-list-text {
   display: flex;
+  flex-wrap: wrap;
   padding: 0 10px;
   margin: 0 15px;
   background-color: #FFFAFA;
@@ -53,7 +59,6 @@ body {
   justify-content: center;
   border-radius: 4px;
   width: 1000px;
-  flex-wrap: wrap;
 }
 
 .done {
@@ -163,4 +168,86 @@ body {
 
 .adding-task-button:active {
   transform: scale(95%);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .task-list-text {
+    max-width: 900px;
+  }
+  .button {
+    width: 45px;
+  }
+  .adding-task-input {
+    max-width: 800px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .task-list-title {
+    font-size: 34px;
+  }
+  .button {
+    height: 35px;
+    width: 60px;
+  }
+  .button-img {
+    width: 25px;
+    height: 25px;
+  }
+  .task-list-text {
+    max-width: 640px;
+  }
+  .adding-task-button {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .adding-task-input {
+    max-width: 543px;
+    line-height: 2.2;
+  }
+  .adding-task-subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+  .task-list-title {
+    font-size: 28px;
+  }
+  .button {
+    width: 70px;
+  }
+  .adding-task-subtitle {
+    font-size: 17px;
+  }
+  .adding-task-button {
+    font-size: 14px;
+  }
+  .adding-task-input {
+    max-width: 426px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .adding-task-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .adding-task-input {
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+  .adding-task-button {
+    margin-left: 5%;
+  }
 }/*# sourceMappingURL=styles.css.map */
